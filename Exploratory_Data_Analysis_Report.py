@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[14]:
-
-
 import pandas as pd
 import numpy as np
 from scipy.stats import skew, kurtosis, mode
@@ -45,16 +39,4 @@ eda_df.to_csv('eda_summary.csv')
 
 # Display the first few rows
 print(eda_df.head())
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
